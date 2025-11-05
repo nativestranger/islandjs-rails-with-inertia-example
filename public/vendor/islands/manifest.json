@@ -1,0 +1,14 @@
+{
+  "libs": [
+    {
+      "name": "react",
+      "version": "19.1.0",
+      "file": "react-19.1.0.min.js"
+    },
+    {
+      "name": "react-dom",
+      "version": "19.1.0",
+      "file": "react_dom-19.1.0.min.js"
+    }
+  ]
+}

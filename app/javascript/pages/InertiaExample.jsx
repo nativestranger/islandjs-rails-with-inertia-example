@@ -37,7 +37,7 @@ export default function InertiaExample({ name }) {
           </a>
         </div>
 
-        <h2 className={cs.h2}>Inertia + Vite Ruby + React</h2>
+        <h2 className={cs.h2}>Inertia + Vite Ruby + React!</h2>
 
         <div className="card">
           <button
@@ -53,6 +53,12 @@ export default function InertiaExample({ name }) {
         </div>
         <p className={cs.readTheDocs}>
           Click on the Inertia, Vite Ruby, and React logos to learn more
+        </p>
+
+        <p>
+          <a href="/">Root</a>
+          <br></br>
+          <a href="/island-example">React Island</a>
         </p>
       </div>
     </>

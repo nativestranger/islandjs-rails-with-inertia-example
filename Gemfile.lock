@@ -1,3 +1,10 @@
+PATH
+  remote: ../ruby-on-vibes/spec/templates/0_1_0/islandjs-rails
+  specs:
+    islandjs-rails (0.7.0)
+      rails (>= 7.0, < 9.0)
+      thor (~> 1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -410,6 +417,7 @@ DEPENDENCIES
   image_processing (~> 1.2)
   importmap-rails
   inertia_rails
+  islandjs-rails!
   jbuilder
   kamal
   propshaft

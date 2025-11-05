@@ -7,8 +7,13 @@
   },
   "dependencies": {
     "@inertiajs/react": "^2.2.15",
-    "@vitejs/plugin-react": "^5.1.0",
+    "@vitejs/plugin-react": "^5.0.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
+  },
+  "scripts": {
+    "build:islands": "vite build --config vite.config.islands.ts",
+    "islands:watch": "vite build --config vite.config.islands.ts --watch",
+    "build": "vite build --emptyOutDir && yarn build:islands"
   }
 }
