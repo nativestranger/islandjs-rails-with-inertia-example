@@ -67,4 +67,4 @@ end
 
 gem 'inertia_rails'
 gem "vite_rails", "~> 3.0"
-gem "islandjs-rails", path: "../ruby-on-vibes/spec/templates/0_1_0/islandjs-rails"
+gem "islandjs-rails", git: "https://github.com/Praxis-Emergent/islandjs-rails.git", branch: "vite"

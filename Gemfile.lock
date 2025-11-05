@@ -1,7 +1,9 @@
-PATH
-  remote: ../ruby-on-vibes/spec/templates/0_1_0/islandjs-rails
+GIT
+  remote: https://github.com/Praxis-Emergent/islandjs-rails.git
+  revision: 476f62236ef2266617d276ad961b26eba73722ee
+  branch: vite
   specs:
-    islandjs-rails (0.7.0)
+    islandjs-rails (1.0.0)
       rails (>= 7.0, < 9.0)
       thor (~> 1.0)
 

@@ -36,6 +36,10 @@
 !/app/assets/builds/.keep
 /public/assets
 
+# Include built Vite and Islands assets
+!/public/vite*
+!/public/islands/
+
 # Ignore CI service files.
 /.github
 
